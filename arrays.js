@@ -54,15 +54,16 @@ function cambiarNombre() {
   let nombre = prompt("Nombre del alumno/a que desea cambiar");
   let newNombre = prompt("Nuevo nombre");
   // Quiero buscar en nombres (array) el elemento nombre (string)
-  let index = indiceDe(nombres, nombre);
-  if(index > 0) {
-    nombre[index] = newNombre;
+  // let index = indiceDe(nombres, nombre);
+  let index = nombres.indexOf(nombre);
+  if(index >= 0) {
+    nombres[index] = newNombre;
+    mostrarNotas();
   }
   else {
     // -1 es porque no lo encontro
     alert("No se encuentra ese nombre en la lista")
   }
-
 }
 
 function indiceDe(array, string) {
