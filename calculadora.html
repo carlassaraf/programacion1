@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+  <script src="operaciones.js"></script>
+  <script src="ej06.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="Second group">
+      <button onclick="pedirPrimerNum()" type="button" class="btn btn-secondary">Ingresar primer numero</button>
+      <button onclick="pedirSegundoNum()" type="button" class="btn btn-secondary">Ingresar segundo numero</button>
+    </div>
+    <div class="btn-group me-2" role="group" aria-label="First group">
+      <button onclick="operar('+')" type="button" class="btn btn-primary">+</button>
+      <button onclick="operar('-')" type="button" class="btn btn-primary">-</button>
+      <button onclick="operar('x')" type="button" class="btn btn-primary">x</button>
+      <button onclick="operar('/')" type="button" class="btn btn-primary">/</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Third group">
+      <button onclick="resultado()" type="button" class="btn btn-info">=</button>
+    </div>
+  </div>
+</body>
+</html>
