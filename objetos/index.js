@@ -62,13 +62,22 @@ function mostrarEntradas() {
   for(let alumno of alumnos) {
     let html = `<div class="card" style="width: 18rem;">`;
     html += `<div class="card-body">`;
-    html += `<h5 class="card-title">${alumno.nombre}</h5>`;
+    html += `<h4 class="card-title">${alumno.nombre}</h4>`;
     html += `<p class="card-text">${alumno.carrera}</p>`;
     html += `<p class="card-text">${alumno.matricula}</p>`;
     html += `<p class="card-text">Es regular? ${(alumno.regular)? "Si" : "No"}</p>`;
+    html += `<h5 class="card-title">Materias que cursa</h5>`;
+    html += `<ul class="list-group list-group-flush">`;
+    // Genero tantos li como materias curse el alumno
+    alumno.materias.forEach((materia, i) => {
+      html += `<li class="list-group-item">${i + 1}. ${materia.nombre} | ${materia.tipo}</li>`;
+    });
+    // for(let materia of alumno.materias) {
+      // html += `<li class="list-group-item">${materia.nombre} | ${materia.tipo}</li>`;
+    // }
+    html += `</ul>`;
     html += `</div>`;
     html += `</div>`;
-
     div.innerHTML += html;
   }
 }
@@ -77,15 +86,16 @@ function mostrarEntradas() {
 
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">${alumno.nombre}</h5>
+    <h4 class="card-title">${alumno.nombre}</h4>
     <p class="card-text">${alumno.carrera}</p>
     <p class="card-text">${alumno.matricula}</p>
     <p class="card-text">Es regular? ${alumno.regular}</p>
   </div>
+  <h5 class="card-title">Materias que cursa</h5>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">${materia.nombre} | ${materia.tipo}</li>
+    <li class="list-group-item">${materia.nombre} | ${materia.tipo}</li>
+    <li class="list-group-item">${materia.nombre} | ${materia.tipo}</li>
   </ul>
 </div>
 
@@ -104,9 +114,10 @@ function inscribirMateria() {
       return;
     }
     // Inscribo a una materia
-    let materia = pedirMateria();
+    let materia = pedirMateria(alumno.carrera);
     alumno.materias.push(materia);
-    console.log(alumno);
+    // console.log(alumno);
+    mostrarEntradas();
   }
   else {
     // No hay

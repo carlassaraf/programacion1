@@ -109,10 +109,10 @@ const materias = [
   { nombre: "Construcción Naval", codigo: "NAV110", tipo: "presencial", carrera: "NAVAL" }
 ];
 
-function pedirMateria() {
+function pedirMateria(carrera) {
   // Me quedo unicamente con los codigos de las materias
   let opciones = materias.map(materia => materia.codigo);
-  let materia;
+  let codigo;
   let valido = true;
   do {
     codigo = validarString(`Ingrese la materia a la que se inscribe (${opciones.join(" | ")})`);
