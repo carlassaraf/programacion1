@@ -1,0 +1,122 @@
+[
+  {
+    "isbn": "9780140449112",
+    "autor": "Homero",
+    "nombre": "La Odisea",
+    "editorial": "Penguin Classics",
+    "portada": "https://m.media-amazon.com/images/I/81q1yHTD53L.jpg",
+    "sinopsis": "La Odisea narra el regreso del héroe griego Odiseo a su hogar en Ítaca después de la guerra de Troya, enfrentando monstruos, dioses y peligros en un viaje épico de diez años."
+  },
+  {
+    "isbn": "9780061120084",
+    "autor": "Harper Lee",
+    "nombre": "Matar a un ruiseñor",
+    "editorial": "Harper Perennial",
+    "portada": "https://m.media-amazon.com/images/I/81OdwZ23sCL.jpg",
+    "sinopsis": "Ambientada en el sur de EE.UU. durante la Gran Depresión, esta novela sigue a Scout Finch mientras su padre, el abogado Atticus Finch, defiende a un hombre negro acusado injustamente de violación."
+  },
+  {
+    "isbn": "9780451524935",
+    "autor": "George Orwell",
+    "nombre": "1984",
+    "editorial": "Signet Classics",
+    "portada": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
+    "sinopsis": "Una distopía que retrata una sociedad totalitaria donde el Gran Hermano lo vigila todo, y el pensamiento libre es reprimido por un régimen opresor que manipula la verdad."
+  },
+  {
+    "isbn": "9780307277671",
+    "autor": "Cormac McCarthy",
+    "nombre": "La carretera",
+    "editorial": "Vintage",
+    "portada": "https://m.media-amazon.com/images/I/71tbalAHYCL.jpg",
+    "sinopsis": "Un padre y su hijo cruzan un paisaje postapocalíptico devastado, luchando por sobrevivir mientras mantienen viva su humanidad y esperanza."
+  },
+  {
+    "isbn": "9788497593793",
+    "autor": "Gabriel García Márquez",
+    "nombre": "Cien años de soledad",
+    "editorial": "Debolsillo",
+    "portada": "https://m.media-amazon.com/images/I/81AfzrYftcL.jpg",
+    "sinopsis": "La historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo, marcada por el amor, el poder, la soledad y el realismo mágico."
+  },
+  {
+    "isbn": "9788491050543",
+    "autor": "Miguel de Cervantes",
+    "nombre": "Don Quijote de la Mancha",
+    "editorial": "Alfaguara",
+    "portada": "https://m.media-amazon.com/images/I/81eB+7+CkUL.jpg",
+    "sinopsis": "Un hidalgo enloquecido por las novelas de caballería se convierte en Don Quijote, emprendiendo aventuras junto a su escudero Sancho Panza en busca de justicia y gloria."
+  },
+  {
+    "isbn": "9780345803481",
+    "autor": "E.L. James",
+    "nombre": "Cincuenta sombras de Grey",
+    "editorial": "Vintage",
+    "portada": "https://m.media-amazon.com/images/I/71vrjLbZGxL.jpg",
+    "sinopsis": "Anastasia Steele conoce al misterioso empresario Christian Grey y se ve arrastrada a una intensa relación marcada por el deseo, el control y los secretos del pasado."
+  },
+  {
+    "isbn": "9780142437230",
+    "autor": "Herman Melville",
+    "nombre": "Moby-Dick",
+    "editorial": "Penguin Classics",
+    "portada": "https://m.media-amazon.com/images/I/81EXEbZzJ7L.jpg",
+    "sinopsis": "El capitán Ahab embarca a su tripulación en una peligrosa persecución obsesiva contra la gran ballena blanca Moby Dick, símbolo de su locura y venganza personal."
+  },
+  {
+    "isbn": "9780316769488",
+    "autor": "J.D. Salinger",
+    "nombre": "El guardián entre el centeno",
+    "editorial": "Little, Brown",
+    "portada": "https://m.media-amazon.com/images/I/71UypkUjStL.jpg",
+    "sinopsis": "Holden Caulfield, un adolescente rebelde, narra sus días errantes en Nueva York tras ser expulsado de su internado, cuestionando la hipocresía del mundo adulto."
+  },
+  {
+    "isbn": "9788415732001",
+    "autor": "Carlos Ruiz Zafón",
+    "nombre": "La sombra del viento",
+    "editorial": "Planeta",
+    "portada": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
+    "sinopsis": "Un joven descubre un libro olvidado que lo lleva a desentrañar la misteriosa vida de su autor, entre secretos, amores y tragedias en la Barcelona de posguerra."
+  },
+  {
+    "isbn": "9788437604947",
+    "autor": "Federico García Lorca",
+    "nombre": "Bodas de sangre",
+    "editorial": "Cátedra",
+    "portada": "https://m.media-amazon.com/images/I/71SxZ6V2iRL.jpg",
+    "sinopsis": "Una tragedia poética inspirada en hechos reales que explora la pasión, el destino y el honor a través de un triángulo amoroso en el contexto rural andaluz."
+  },
+  {
+    "isbn": "9788498381498",
+    "autor": "J.K. Rowling",
+    "nombre": "Harry Potter y la piedra filosofal",
+    "editorial": "Salamandra",
+    "portada": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg",
+    "sinopsis": "Harry Potter, un niño huérfano, descubre que es un mago y comienza su educación en Hogwarts, donde vive aventuras, hace amigos y enfrenta oscuros secretos."
+  },
+  {
+    "isbn": "9789877381788",
+    "autor": "Julio Cortázar",
+    "nombre": "Rayuela",
+    "editorial": "Alfaguara",
+    "portada": "https://m.media-amazon.com/images/I/81%2B4H0kChCL.jpg",
+    "sinopsis": "Una novela experimental que desafía la narrativa tradicional, explorando la vida de Horacio Oliveira en París y Buenos Aires a través del amor, el arte y la introspección."
+  },
+  {
+    "isbn": "9788497592208",
+    "autor": "Isabel Allende",
+    "nombre": "La casa de los espíritus",
+    "editorial": "Debolsillo",
+    "portada": "https://m.media-amazon.com/images/I/81Rp8JAAx7L.jpg",
+    "sinopsis": "Una saga familiar marcada por el amor, la política y lo sobrenatural, que abarca varias generaciones en un país latinoamericano imaginario lleno de realismo mágico."
+  },
+  {
+    "isbn": "9780141182803",
+    "autor": "F. Scott Fitzgerald",
+    "nombre": "El gran Gatsby",
+    "editorial": "Penguin Classics",
+    "portada": "https://m.media-amazon.com/images/I/81AFhc0jWmL.jpg",
+    "sinopsis": "Jay Gatsby, un millonario enigmático, organiza fastuosas fiestas con la esperanza de recuperar el amor perdido de Daisy Buchanan, en una crítica a la sociedad de los años 20."
+  }
+]
