@@ -16,6 +16,23 @@ function mostrarLibros() {
   libros.forEach(libro => divBiblioteca.innerHTML += libro.toHTML());
 }
 
+function pedirLibro() {
+
+  const isbn = Libro.pedirISBN();
+  const nombre = Libro.pedirNombre();
+  const autor = Libro.pedirAutor();
+  const editorial = Libro.pedirEditorial();
+
+  libros.push(new Libro(isbn, nombre, autor, editorial));
+  mostrarLibros();
+}
+
+function cambiarPropiedadPrivada() {
+
+  // libros[4].#isbn = "asdfasdg";
+  // console.log(libros[4].#isbn);
+}
+
 /*
 
 <div class="card" style="width: 18rem;">
