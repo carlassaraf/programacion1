@@ -19,6 +19,8 @@ function apiFetchList(limit, offset) {
           j.types.map(element => element.type.name)
         ));
 
+        // Ordena por ID de forma ascendente
+        pokemons.sort((pokemon_1, pokemon_2) => pokemon_1.id - pokemon_2.id);
         mostrarPokemons();
       });
 

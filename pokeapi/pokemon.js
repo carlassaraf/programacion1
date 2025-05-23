@@ -11,12 +11,12 @@ class Pokemon {
     let html = `<div class="card" style="width: 18rem;">`;
     html += `<img src="${this.sprite}" class="card-img-top" alt="${this.name}">`;
     html += `<div class="card-body">`;
-    html += `<h5 class="card-title">${this.name}</h5>`;
+    html += `<h5 class="card-title">${capitalizeString(this.name)}</h5>`;
     html += `<p class="card-text">ID de Pokedex Nacional: ${this.id}</p>`;
     html += `</div>`;
     html += `<ul class="list-group list-group-flush">`;
     this.types.forEach(type => {
-      html += `<li class="list-group-item">${type}</li>`
+      html += `<li class="list-group-item">${capitalizeString(type)}</li>`
     });
     html += `</ul>`;
     html += `</div>`;
