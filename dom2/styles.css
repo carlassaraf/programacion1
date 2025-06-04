@@ -1,0 +1,11 @@
+main {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
