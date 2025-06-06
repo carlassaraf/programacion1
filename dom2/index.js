@@ -32,16 +32,66 @@ function createLi(text) {
     li.innerText = text;
     li.setAttribute("class", "list-group-item");
 
-    let btn = document.createElement("button");
-    btn.classList.add("btn");
-    btn.classList.add("btn-danger");
-    btn.innerText = "Borrar";
-    btn.addEventListener("click", (e) => {
-      // Guardo el culpable del evento (button que se clickeo)
+    let btnGroup = document.createElement("div");
+    btnGroup.setAttribute("class", "btn-group");
+    btnGroup.setAttribute("role", "group");
+
+    let btnDown = document.createElement("button");
+    btnDown.setAttribute("type", "button");
+    btnDown.classList.add("btn");
+    btnDown.classList.add("btn-primary");
+    btnDown.innerText = "Bajar";
+    btnDown.addEventListener("click", (e) => {
+      // Guardo el culpable del evento
       const target = e.target;
-      target.parentElement.remove();
+      // Voy hasta el li que quiero mover
+      const li = target.parentElement.parentElement;
+      const nextSibling = li.nextElementSibling;
+      if(nextSibling) {
+        nextSibling.after(li);
+      }
+      else {
+        li.parentElement.firstElementChild.before(li);
+      }
     });
 
-    li.append(btn);
+    let btnDelete = document.createElement("button");
+    btnDelete.classList.add("btn");
+    btnDelete.classList.add("btn-danger");
+    btnDelete.innerText = "Borrar";
+    btnDelete.addEventListener("click", (e) => {
+      // Guardo el culpable del evento (button que se clickeo)
+      const target = e.target;
+      // Busco el texto del li
+      let text = target.parentElement.previousSibling.textContent;
+      lis.splice(lis.indexOf(text), 1);
+      localStorage.setItem("lis", JSON.stringify(lis));
+      target.parentElement.parentElement.remove();
+    });
+
+    let btnUp = document.createElement("button");
+    btnUp.setAttribute("type", "button");
+    btnUp.classList.add("btn");
+    btnUp.classList.add("btn-primary");
+    btnUp.innerText = "Subir";
+    btnUp.addEventListener("click", (e) => {
+      // Guardo el culpable del evento
+      const target = e.target;
+      // Voy hasta el li que quiero mover
+      const li = target.parentElement.parentElement;
+      const prevSibling = li.previousElementSibling;
+      if(prevSibling) {
+        // Solo si existe el hermano anterior
+        prevSibling.before(li);
+      }
+      else {
+        // Si no existe, lo mandamos al final
+        li.parentElement.lastElementChild.after(li);
+      }
+    });
+
+    btnGroup.append(btnDown, btnDelete, btnUp);
+
+    li.append(btnGroup);
     document.querySelector("ul").append(li);
 }
