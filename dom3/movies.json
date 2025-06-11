@@ -1,0 +1,227 @@
+[
+  {
+    "name": "The Shawshank Redemption",
+    "year": 1994,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZTAwLWFmNTEtODM1ZmRlODM4NjFkXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genres": ["Drama"],
+    "duration": "2h 22m",
+    "rating": 9.3,
+    "synopsis": "Andy Dufresne, condenado por un crimen que no cometió, entabla amistad con otro preso y busca esperanza y redención dentro de una prisión corrupta."
+  },
+  {
+    "name": "El padrino",
+    "year": 1972,
+    "cover": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmYtYTAwZS00ZGI5LWFmNTEtODM1ZTAwYzJhZWRkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genres": ["Crimen", "Drama"],
+    "duration": "2h 55m",
+    "rating": 9.2,
+    "synopsis": "La crónica de la familia Corleone y su transición al poder bajo el joven Michael, en un mundo de crimen organizado."
+  },
+  {
+    "name": "The Godfather: Part II",
+    "year": 1974,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMWMwMGYwNDQtNDFlZS00ZTVhLTg5ZjgtOWQzNzQ2YTAwY2VlXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genres": ["Crimen", "Drama"],
+    "duration": "3h 22m",
+    "rating": 9.0,
+    "synopsis": "Dos historias paralelas: los orígenes de Don Vito Corleone y el ascenso de su hijo Michael al poder criminal."
+  },
+  {
+    "name": "The Dark Knight",
+    "year": 2008,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMDU3OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genres": ["Acción", "Crimen", "Drama"],
+    "duration": "2h 32m",
+    "rating": 9.0,
+    "synopsis": "Batman debe enfrentarse al Joker, un criminal caótico que pone en jaque la seguridad de Gotham."
+  },
+  {
+    "name": "12 Angry Men",
+    "year": 1957,
+    "cover": "https://m.media-amazon.com/images/M/MV5BZGMxZmM4MWItZmI3OC00M2ZlLWFmNTEtODM1NzAwZDFiMGZlXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genres": ["Crimen", "Drama"],
+    "duration": "1h 36m",
+    "rating": 9.0,
+    "synopsis": "Doce miembros del jurado debaten la culpabilidad de un joven acusado de asesinato, descubriendo sesgos personales."
+  },
+  {
+    "name": "Schindler's List",
+    "year": 1993,
+    "cover": "https://m.media-amazon.com/images/M/MV5BNDY1NjY3Nzg2Ml5BMl5BanBnXkFtZTcwODc5MDAzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "genres": ["Drama", "Biografía", "Histórico"],
+    "duration": "3h 15m",
+    "rating": 9.0,
+    "synopsis": "La historia real de Oskar Schindler, quien salvó a más de mil judíos durante el Holocausto."
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "cover": "https://m.media-amazon.com/images/M/MV5BNzA5ZDRjMjEt...jpg",
+    "genres": ["Aventura", "Drama", "Fantasía"],
+    "duration": "3h 21m",
+    "rating": 9.0,
+    "synopsis": "La épica conclusión de la lucha por destruir el Anillo Único y derrotar a Sauron."
+  },
+  {
+    "name": "Pulp Fiction",
+    "year": 1994,
+    "cover": "https://m.media-amazon.com/images/M/MV5BZmU3YWYxYzQt...jpg",
+    "genres": ["Crimen", "Drama"],
+    "duration": "2h 34m",
+    "rating": 8.9,
+    "synopsis": "Historias entrecruzadas de violencia, redención y humor negro en el mundo criminal de Los Ángeles."
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "cover": "https://m.media-amazon.com/images/M/MV5BNzA3YWY5ODkt...jpg",
+    "genres": ["Aventura", "Drama", "Fantasía"],
+    "duration": "2h 58m",
+    "rating": 8.8,
+    "synopsis": "Un joven hobbit inicia el viaje para destruir el Anillo Único junto a un grupo diverso de compañeros."
+  },
+  {
+    "name": "Il buono, il brutto, il cattivo",
+    "year": 1966,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMTU2NjAxODk0NV5BMl5BanBnXkFtZTcwNjYxMzU...jpg",
+    "genres": ["Aventura", "Western"],
+    "duration": "2h 58m",
+    "rating": 8.8,
+    "synopsis": "Tres cazarrecompensas buscan un tesoro enterrado durante la Guerra Civil estadounidense."
+  },
+  {
+    "name": "Fight Club",
+    "year": 1999,
+    "cover": "https://m.media-amazon.com/images/M/MV5BODc2Y2U...jpg",
+    "genres": ["Drama"],
+    "duration": "2h 19m",
+    "rating": 8.8,
+    "synopsis": "Un oficinista insomne funda un club secreto de peleas como vía de escape de su rutina."
+  },
+  {
+    "name": "Inception",
+    "year": 2010,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMTM2NTI5ODAzMF5BMl5BanBnXkFtZTcwM...jpg",
+    "genres": ["Acción", "Aventura", "Ciencia ficción"],
+    "duration": "2h 28m",
+    "rating": 8.8,
+    "synopsis": "Un ladrón especializado en robar secretos a través del subconsciente es contratado para implantar una idea."
+  },
+  {
+    "name": "Forrest Gump",
+    "year": 1994,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3OT...jpg",
+    "genres": ["Drama", "Romance"],
+    "duration": "2h 22m",
+    "rating": 8.8,
+    "synopsis": "La vida de un hombre con un coeficiente intelectual bajo que vive momentos clave de la historia de EEUU."
+  },
+  {
+    "name": "One Flew Over the Cuckoo's Nest",
+    "year": 1975,
+    "cover": "https://m.media-amazon.com/images/M/MV5BN2QzODk...jpg",
+    "genres": ["Drama"],
+    "duration": "2h 19m",
+    "rating": 8.7,
+    "synopsis": "Un reo ingresa a un manicomio y desafía la autoridad de la enfermera Ratched."
+  },
+  {
+    "name": "The Matrix",
+    "year": 1999,
+    "cover": "https://m.media-amazon.com/images/M/MV5BNzQzOTk...jpg",
+    "genres": ["Acción", "Ciencia ficción"],
+    "duration": "2h 16m",
+    "rating": 8.7,
+    "synopsis": "Un hacker descubre que la realidad es una simulación y se une a la resistencia contra las máquinas."
+  },
+  {
+    "name": "Goodfellas",
+    "year": 1990,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMTk...jpg",
+    "genres": ["Crimen", "Drama"],
+    "duration": "2h 26m",
+    "rating": 8.7,
+    "synopsis": "La escalada y caída de un mafioso real en Nueva York, narrada en primera persona."
+  },
+  {
+    "name": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMTU3...jpg",
+    "genres": ["Acción", "Aventura", "Fantasía"],
+    "duration": "2h 4m",
+    "rating": 8.7,
+    "synopsis": "El Imperio persigue a los rebeldes y Luke comienza su entrenamiento Jedi mientras Vader revela un secreto."
+  },
+  {
+    "name": "Seven Samurai",
+    "year": 1954,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMjIx...jpg",
+    "genres": ["Aventura", "Drama"],
+    "duration": "3h 27m",
+    "rating": 8.7,
+    "synopsis": "Un grupo de samuráis defiende un pueblo campesino de bandidos en el Japón feudal."
+  },
+  {
+    "name": "Casablanca",
+    "year": 1942,
+    "cover": "https://m.media-amazon.com/images/M/MV5BZjQzZT...jpg",
+    "genres": ["Drama", "Romance", "Guerra"],
+    "duration": "1h 42m",
+    "rating": 8.7,
+    "synopsis": "Un dueño de bar en Casablanca se reencuentra con una ex amante durante la Segunda Guerra Mundial."
+  },
+  {
+    "name": "Once Upon a Time in the West",
+    "year": 1968,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMjIx...jpg",
+    "genres": ["Western"],
+    "duration": "2h 45m",
+    "rating": 8.7,
+    "synopsis": "Un misterioso armonicista se asocia con una viuda para enfrentar a un despiadado empresario ferroviario."
+  },
+  {
+    "name": "Raiders of the Lost Ark",
+    "year": 1981,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMT...jpg",
+    "genres": ["Acción", "Aventura"],
+    "duration": "1h 55m",
+    "rating": 8.7,
+    "synopsis": "Indiana Jones busca el Arca de la Alianza antes que los nazis."
+  },
+  {
+    "name": "The Usual Suspects",
+    "year": 1995,
+    "cover": "https://m.media-amazon.com/images/M/MV5BN...jpg",
+    "genres": ["Crimen", "Misterio", "Thriller"],
+    "duration": "1h 46m",
+    "rating": 8.7,
+    "synopsis": "Cinco criminales son convocados para un trabajo y terminan envueltos en una trama con el misterioso Keyser Söze."
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "year": 1991,
+    "cover": "https://m.media-amazon.com/images/M/MV5BM...jpg",
+    "genres": ["Crimen", "Drama", "Thriller"],
+    "duration": "1h 58m",
+    "rating": 8.6,
+    "synopsis": "Una joven agente del FBI recurre al Dr. Hannibal Lecter para capturar a un asesino en serie."
+  },
+  {
+    "name": "Star Wars: Episode IV - A New Hope",
+    "year": 1977,
+    "cover": "https://m.media-amazon.com/images/M/MV5BY...jpg",
+    "genres": ["Acción", "Aventura", "Fantasía"],
+    "duration": "2h 1m",
+    "rating": 8.6,
+    "synopsis": "Luke Skywalker se une a la Rebelión para detener al imperio galáctico y rescatar a la princesa Leia."
+  },
+  {
+    "name": "City of God",
+    "year": 2002,
+    "cover": "https://m.media-amazon.com/images/M/MV5BMTg...jpg",
+    "genres": ["Crimen", "Drama"],
+    "duration": "2h 10m",
+    "rating": 8.6,
+    "synopsis": "La historia real de chicos en una favela de Río que se involucran en bandas criminales."
+  }
+]
