@@ -12,6 +12,8 @@
   <main class="container mt-3">
     <form action="#">
 
+      <h4>Datos del disco</h4>
+
       <div class="input-group mb-3">
         <span class="input-group-text">Disco</span>
         <input type="text" class="form-control" placeholder="Fear of the Dark" id="input-disc">
@@ -32,6 +34,18 @@
         <input type="text" class="form-control" id="input-cover" placeholder="URL">
       </div>
 
+      <h4>Pistas</h4>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text">Nombre de pista</span>
+        <input type="text" class="form-control" id="input-pista-name" placeholder="Wasting Love">
+        <span class="input-group-text">Duración de pista</span>
+        <input type="number" class="form-control" id="input-pista-duration" placeholder="200">
+        <button class="btn btn-primary" id="btn-add-pista">Agregar pista</button>
+      </div>
+
+      <!-- ACÁ VA A IR UN ALERT -->
+       
       <div class="input-group mb-3">
         <button class="btn btn-primary" type="submit">Enviar</button>
       </div>

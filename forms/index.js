@@ -1,5 +1,8 @@
 const ids = [123, 444, 236, 98, 1, 45];
 
+let discos = [];
+let pistas = [];
+
 document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelector("form").addEventListener("submit", (e) => {
@@ -49,8 +52,19 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    // Las pistas ya las tengo
+    discos.push({
+      name: inputDisc.value,
+      artist: inputArtist.value,
+      id: parseInt(inputId.value),
+      cover: inputCover.value,
+      pistas: pistas
+    });
+    pistas = [];
+
     document.querySelectorAll("input").forEach(input => input.value = "");
-    alert("Disco cargado con éxito!");
+    
+    addAlert();
 
   });
 
@@ -63,4 +77,51 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  document.querySelector("#btn-add-pista").addEventListener("click", () => {
+
+    // Valido nombre de pista
+    const inputName = document.querySelector("#input-pista-name");
+    if(inputName.value.trim() === "") {
+      inputName.setCustomValidity("El nombre de la pista es obligatorio");
+      inputName.reportValidity();
+      return;
+    }
+
+    // Valido duracion de la pista
+    const inputDuration = document.querySelector("#input-pista-duration");
+    if(inputDuration.value.trim() === "") {
+      inputDuration.setCustomValidity("La duración de la pista es obligatoria");
+      inputDuration.reportValidity();
+      return;
+    }
+    else if(parseInt(inputDuration.value) < 1 || parseInt(inputDuration.value) > 7200) {
+      inputDuration.setCustomValidity("La duración de la pista está fuera de rango");
+      inputDuration.reportValidity();
+      return;
+    }
+
+    // El dato es válido
+    pistas.push({
+      name: inputName.value,
+      duration: parseInt(inputDuration.value)
+    });
+
+    inputName.value = "";
+    inputDuration.value = "";
+
+    addAlert();
+
+  });
+
 });
+
+function addAlert() {
+  // Creo un alert para el usuario
+  const alert = document.createElement("div");
+  alert.setAttribute("class", "alert alert-info");
+  alert.setAttribute("role", "alert");
+  alert.innerText = "Pista agregada al disco!";
+  document.querySelector("#btn-add-pista").parentElement.after(alert);
+  // Timeout para hacer desaparecer el alert
+  setTimeout(() => document.querySelector(".alert").remove(), 2000);
+}
