@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PC001",
+    "marca": "Lenovo",
+    "procesador": "Intel Core i5 11va gen",
+    "ram": "8GB",
+    "almacenamiento": "512GB SSD",
+    "pantalla": "15.6\" FHD"
+  },
+  {
+    "id": "PC002",
+    "marca": "Samsung",
+    "resolucion": "1920x1080",
+    "frecuencia": "75Hz",
+    "tipo": "LED",
+    "conectividad": "HDMI, VGA"
+  },
+  {
+    "id": "PC003",
+    "marca": "Redragon",
+    "tipo_tecla": "Mecánica (Outemu Blue)",
+    "retroiluminacion": "RGB",
+    "layout": "Español",
+    "conexion": "Cable USB"
+  },
+  {
+    "id": "PC004",
+    "marca": "Logitech",
+    "dpi": "200-8000",
+    "botones": 6,
+    "conexion": "USB",
+    "rgb": true
+  },
+  {
+    "id": "PC005",
+    "marca": "Kingston",
+    "tipo": "NVMe PCIe 3.0",
+    "velocidad_lectura": "2100MB/s",
+    "velocidad_escritura": "1700MB/s",
+    "formato": "M.2 2280"
+  },
+  {
+    "id": "PC006",
+    "marca": "Corsair",
+    "capacidad": "16GB (2x8GB)",
+    "frecuencia": "3200MHz",
+    "tipo": "DDR4",
+    "disipador": true
+  },
+  {
+    "id": "PC007",
+    "marca": "NVIDIA",
+    "modelo": "GeForce RTX 4060",
+    "memoria": "8GB GDDR6",
+    "conectores": "HDMI, DisplayPort",
+    "ray_tracing": true
+  },
+  {
+    "id": "PC008",
+    "marca": "EVGA",
+    "potencia": "650W",
+    "certificacion": "80 Plus Bronze",
+    "modular": "No",
+    "ventilador": "120mm"
+  },
+  {
+    "id": "PC009",
+    "marca": "Redragon",
+    "tipo": "Gamer Mid Tower",
+    "ventiladores_incluidos": 3,
+    "vidrio_temperado": true,
+    "espacio_gpu": "Hasta 320mm"
+  },
+  {
+    "id": "PC010",
+    "marca": "HP",
+    "tipo": "Multifunción",
+    "funciones": ["Impresión", "Escaneo", "Copia"],
+    "conexion": ["WiFi", "USB"],
+    "sistema_tinta": "Tanque recargable"
+  }
+]

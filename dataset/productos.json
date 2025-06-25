@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PC001",
+    "nombre": "Notebook Lenovo IdeaPad 3",
+    "categoria": "Notebook",
+    "precio": 459999
+  },
+  {
+    "id": "PC002",
+    "nombre": "Monitor Samsung 24\" FHD",
+    "categoria": "Monitor",
+    "precio": 189999
+  },
+  {
+    "id": "PC003",
+    "nombre": "Teclado Mecánico Redragon Kumara",
+    "categoria": "Teclado",
+    "precio": 39999
+  },
+  {
+    "id": "PC004",
+    "nombre": "Mouse Logitech G203 Lightsync",
+    "categoria": "Mouse",
+    "precio": 25999
+  },
+  {
+    "id": "PC005",
+    "nombre": "Disco SSD Kingston 1TB NVMe",
+    "categoria": "Almacenamiento",
+    "precio": 84999
+  },
+  {
+    "id": "PC006",
+    "nombre": "Memoria RAM Corsair 16GB DDR4",
+    "categoria": "Memoria RAM",
+    "precio": 71999
+  },
+  {
+    "id": "PC007",
+    "nombre": "Placa de video NVIDIA RTX 4060",
+    "categoria": "Placa de video",
+    "precio": 499999
+  },
+  {
+    "id": "PC008",
+    "nombre": "Fuente EVGA 650W 80 Plus Bronze",
+    "categoria": "Fuente",
+    "precio": 99999
+  },
+  {
+    "id": "PC009",
+    "nombre": "Gabinete Gamer Redragon Grapple",
+    "categoria": "Gabinete",
+    "precio": 69999
+  },
+  {
+    "id": "PC010",
+    "nombre": "Impresora HP Ink Tank 415",
+    "categoria": "Impresora",
+    "precio": 119999
+  }
+]
